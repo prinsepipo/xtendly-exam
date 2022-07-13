@@ -1,0 +1,31 @@
+.tagline {
+  min-width: 800px;
+  width: 50%;
+
+  position: absolute;
+  left: 0;
+  top: 20%;
+
+  padding: 2rem 0;
+  padding-left: 15%;
+
+  background: linear-gradient(90deg, #fff, rgba(255, 255, 255, 0.3));
+  box-shadow: 8px 0px 8px rgba(255, 255, 255, 0.3);
+}
+
+.tagline h1 {
+  color: var(--primary);
+  font-size: 3rem;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.tagline span {
+  margin-left: 1rem;
+}
+
+.tagline-text {
+  color: var(--fg);
+  font-size: 2rem;
+  font-style: italic;
+}
